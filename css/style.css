@@ -484,3 +484,55 @@ header {
 .quote-left {
     padding-left: 150px; 
 }
+
+/* modal*/
+.modal-content {
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  border: none;
+}
+.modal-header {
+  border-bottom: none;
+  justify-content: center;
+}
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--main-bg-text-color);
+}
+.modal-body {
+  padding-top: 0;
+}
+.modal-body img {
+  width: 450px;
+  height: 350px;
+  margin-bottom: 20px;
+}
+.form-control {
+  margin: 10px 0;
+  border: 2px solid #39493c;
+  border-radius: 5px;
+  height: 100px;
+}
+.btn-confirm {
+  background-color: #39493c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+.btn-cancel {
+  background-color: #f8f9fa;
+  color: #39493c;
+  border: 2px solid #39493c;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.warning-text {
+  font-size: 0.75rem; /* Smaller font size */
+  color: #ff0000; /* Red color */
+  margin-top: 5px;
+}
+/* end modal */

@@ -4,6 +4,9 @@ export function getFooter() {
             <div class="row footer-bg">
                 <div class="col-md-3 contact">
                     <h5 class="title-footer">Kết nối với EcoCharm</h5>
+                    <a href="https://www.google.com/maps/search/?api=1&query=FPT+University,+Hoa+Lac+Hi-tech+Park,+km+29,+Đại+lộ,+Thăng+Long,+Hà+Nội,+Vietnam" target="_blank">
+                        <img src="assets/img/map.png" alt="Google Map of Location" width="300" height="300">
+                    </a>
                 </div>
                 <div class="col-md-3 contact">
                     <h5 class="title-footer">EcoCharm</h5>
@@ -24,9 +27,6 @@ export function getFooter() {
                     <p class="footer-color">Hãy để lại thông tin liên lạc của bạn để <br>
                         nhận được những ý tưởng trang trí mới <br> và những thông tin, ưu đãi từ EcoCharm</p>
                     <form>
-                        <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="Email của bạn">
-                        </div>
                         <div class="mb-3">
                             <input type="email" class="form-control" placeholder="Email của bạn">
                         </div>
